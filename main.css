@@ -1,0 +1,72 @@
+.main {
+    max-width: 45%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__form {
+    padding: 15px;
+    background-color: rgba(195, 170, 231, 0.799);
+}
+
+.main__labelText {
+    letter-spacing: 1.2px;
+    display: inline-block;
+    width: 100px;
+}
+
+.main__label:hover,
+.main__primaryByn:hover {
+    cursor: pointer;
+}
+
+.main__select {
+    border: 1px solid black;
+}
+
+.main__input {
+    max-width: 110px;
+    border: 1px solid black;
+
+}
+
+.main__aside {
+    background-color: rgba(195, 170, 231, 0.799);
+    padding:2px;
+}
+
+.main__table {
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.main__table tr {
+    border-top: 1px solid black;
+    letter-spacing:5px;
+}
+
+.main__table tr:hover{
+    cursor: default;
+    background-color:rgb(168, 168, 168);
+}
+.main__tableBody {
+    text-align: right;
+    padding: 4.3px;
+}
+
+.main__tableCap {
+    font-weight: bold;
+}
+.main__fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.main__reverseBtn{
+   background-color: transparent;
+   border: none;
+   font-size: 25px;
+   padding: 0;
+}
